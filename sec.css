@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav{
+    height: 5rem;
+    width: 100%;
+    background-color: rgb(253, 244, 244);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about h3 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+/* School Administration section styles */
+.administration {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .administration img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the image */
+  }
+  
+  .administration h5 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333; /* Darken the heading text color */
+  }
+  
+  .administration p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
